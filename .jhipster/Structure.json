@@ -1,0 +1,22 @@
+{
+  "changelogDate": "20230527115002",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "stype",
+      "fieldType": "etype",
+      "fieldValues": "CABMED,CLIPRIV,STPUBLIC"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Structure",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}
